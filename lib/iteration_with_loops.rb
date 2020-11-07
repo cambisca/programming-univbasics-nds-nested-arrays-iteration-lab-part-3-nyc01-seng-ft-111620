@@ -31,7 +31,6 @@ def join_nested_strings(src)
         if !src[row_index][element_index].is_a?(Integer)
           final_saying << src[row_index][element_index]
         end 
-        end 
       element_index += 1 
       end 
     row_index += 1 
